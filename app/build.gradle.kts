@@ -4,7 +4,7 @@ plugins {
 
 import java.util.Properties
 
-val appVersion = "1.0.0"
+val appVersion = "1.0.1"
 
 // Release signing: keystore.properties in the project root (git-ignored), or
 // environment variables (for CI). Falls back to the debug key when neither is set.
@@ -45,7 +45,7 @@ android {
         applicationId = "io.github.jas0n1ee0315.fuckthreadsinappbrowser"
         minSdk = 28
         targetSdk = 36
-        versionCode = 1
+        versionCode = 2
         versionName = appVersion
     }
 
